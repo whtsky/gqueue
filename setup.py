@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 version = '0.1'
 
@@ -8,7 +8,7 @@ setup(
     author='whtsky',
     author_email='whtsky@gmail.com',
     url='https://github.com/whtsky/gqueue',
-    packages=find_packages(),
+    py_modules=['gqueue'],
     description='GQueue: Simple job queues',
     long_description='',
     install_requires=['gevent'],

@@ -1,4 +1,4 @@
-from gqueue import job, run_worker, join_all
+from gqueue import job, run_worker, join
 
 
 @job
@@ -12,4 +12,4 @@ for _ in range(5):
 
 print('----')
 run_worker()
-join_all()
+join()
